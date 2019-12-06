@@ -1,5 +1,5 @@
 import React from 'react';
-import PlayersCard from './PlayersCard';
+import PlayerCard from './PlayerCard';
 import Nav from './Nav';
 import axios from 'axios';
 
@@ -25,7 +25,7 @@ class Landing extends React.Component {
             <div className="card-container">
                 <h1>List of all Players</h1>
                 {this.state.playersArr.map(player => (
-                    <PlayersCard data={player} />
+                    <PlayerCard data={player} />
                 ))}
             </div>
             </div>
