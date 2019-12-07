@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.player-card {
+    width: 40%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin: 3%;
+    padding: 3%;
+    display: flex;
+    flex-flow: row !important;
+    box-shadow: 0.5px 5px 12px DarkSlateGray ;
+}
+
